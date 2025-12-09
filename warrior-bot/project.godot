@@ -12,7 +12,15 @@ config_version=5
 
 config/name="warrior-bot"
 config/features=PackedStringArray("4.5", "GL Compatibility")
-config/icon="res://icon.svg"
+
+[file_customization]
+
+folder_colors={
+"res://Assets/": "yellow",
+"res://Assets/Sounds/": "red",
+"res://Assets/Sprites/": "blue",
+"res://Assets/Sprites/Robot/": "blue"
+}
 
 [rendering]
 
